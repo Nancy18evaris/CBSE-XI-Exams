@@ -5,7 +5,7 @@ Contents:
 Class: Denotes the class of the students (in this case, Class XI).
 Year: Specifies the year of the examination (2023).
 Region: Geographic region where the schools are located.
-Status: Indicates the performance status (e.g., number of students who cleared the exams).(Assuming Regd - No of students registered for the exams, Appd- No of students appeared passed the exams. (the differnce of this is the failure in examination where no information is given in the dataset)
+Status: Indicates the performance status (e.g., number of students who cleared the exams).(Assuming Regd - No of students registered for the exams, Appd- No of students appeared and passed the exams. The differnce of this is the failure in examination where no information is given in the dataset)
 CTSA: Number of students from the Central Tibetan School Administration.
 GOVT: Number of students from government schools.
 GOVT AIDED: Number of students from government-aided schools.
@@ -16,7 +16,7 @@ KV: Number of students from Kendriya Vidyalayas.
 Machine Learning Perspective:
 From a machine learning standpoint, this dataset can be approached from both supervised and unsupervised perspectives, depending on the analysis goal:
 
-Supervised Learning: If the goal is to predict performance outcomes (e.g., whether a student will pass or fail based on certain features like school type or region), classification algorithms like Logistic Regression, Decision Trees, or Random Forest could be used. In this case, "Status" (pass/fail) would serve as the target variable.
+Supervised Learning: If the goal is to predict performance outcomes (e.g., whether a student will pass or fail based on certain features like school type or region), classification algorithms like Logistic Regression, Decision Trees, or Random Forest could be used. In this case, "Status" (Regd/Appd) would serve as the target variable.
 
 Unsupervised Learning: If the goal is to uncover patterns or group similar regions or school types based on performance, clustering algorithms like K-Means or Hierarchical Clustering could be applied. These techniques would help identify trends or correlations without predefined labels.
 
