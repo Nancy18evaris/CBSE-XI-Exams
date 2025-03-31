@@ -1,11 +1,11 @@
 The dataset is sourced from Kaggle.
-This dataset provides an overview of the Class XI examinations conducted by CBSE in 2023, categorizing results by school type (CTSA, JNV, KV, government, and independent schools) and region. It includes data on the number of students registered, those who appeared for the exams, and performance outcomes. The "Status" column indicates the success rate of students, while the "Region" column reveals performance trends across various geographic areas. This dataset serves as a valuable tool for analyzing the educational performance and success rates of different school types and regions within the CBSE system.
+This dataset provides an overview of the Class XII examinations conducted by CBSE in 2023, categorizing results by school type (CTSA, JNV, KV, government, Government aided and independent schools) and region. It includes data on the number of students registered, those who appeared for the exams, and performance outcomes. The "Status" column indicates the success rate of students, while the "Region" column reveals performance trends across various geographic areas. This dataset serves as a valuable tool for analyzing the educational performance and success rates of different school types and regions within the CBSE system.
 
 Contents:
 Class: Denotes the class of the students (in this case, Class XI).
 Year: Specifies the year of the examination (2023).
 Region: Geographic region where the schools are located.
-Status: Indicates the performance status (e.g., number of students who cleared the exams).
+Status: Indicates the performance status (e.g., number of students who cleared the exams).(Assuming Regd - No of students registered for the exams, Appd- No of students appeared passed the exams. (the differnce of this is the failure in examination where no information is given in the dataset)
 CTSA: Number of students from the Central Tibetan School Administration.
 GOVT: Number of students from government schools.
 GOVT AIDED: Number of students from government-aided schools.
